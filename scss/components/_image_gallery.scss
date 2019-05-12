@@ -1,0 +1,201 @@
+.portfolio {
+  background-color: #65ba99;
+  padding-bottom: 103px;
+  padding-top: 58px;
+}
+
+.portfolio_title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.portfolio_title_1 {
+  font-size: 48px;
+  font-family: "bebas_neueregular";
+  color: #fff;
+  font-weight: bold;
+}
+  
+.portfolio_title_2 {
+  font-size: 24px;
+  font-family: "bebas_neueregular";
+  color: #fff;
+  font-weight: bold;
+}
+
+.portfolio_foto .foto  {
+  float: left;
+}
+
+.foto {
+  display: block;
+  position: relative;
+} 
+
+.foto  img {
+ z-index: 1;
+ position: relative;
+}
+
+.foto img:hover {
+  background-color: #65ba99;
+  color: white; 
+}
+
+.hren {
+  position: relative;
+}
+
+.foto:hover .bg_section {
+  background-color: rgba(76, 175, 80, 0.5);
+  opacity: 1;
+}
+
+.bg_section {
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.bg_section ul {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+
+.bg_section  {
+  
+  li {
+    display: inline-block;
+    padding: 7px;
+  }
+
+  a {
+    display: inline-block;
+  }
+}
+
+.foto_icons svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+
+.image_regular {
+  background-color: #676767;
+  position: relative;
+  float: left;
+}
+
+.image_regular > svg {
+  width: 82px;
+  height: 82px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  position: absolute;
+  display: block;
+}
+
+
+.image_regular svg:hover {
+  color: white; 
+}
+
+.image_regular:hover .bg_section {
+  background-color: rgba(76, 175, 80, 0.5);
+  opacity: 1;
+}
+
+.big {
+  width: 50%;
+  height: 235px;
+  position: relative;
+}
+
+.small {
+ width: 25%;
+ height: 235px;
+ position: relative;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.loremi {
+  position: relative;
+}
+
+.loremi img {
+  display: block;
+  margin: auto;
+}
+
+.loremi_text {
+  width: 780px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  font-family: "bebas_neueregular";
+  font-size: 36px;
+  color: #fff5f5;
+}
+
+.loremi_after{
+  font-size: 26px;
+  float: right;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.quots{
+  float: left;
+}
+
+.quots_end{
+  float: right;
+}
+
+.search svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+.search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

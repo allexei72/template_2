@@ -1,0 +1,180 @@
+.news {
+  background-color: #cdcdcd;
+}
+
+.glamour {
+  width: 460px;
+  padding-left: 10px;
+  float: left;
+}
+
+.news h1 {
+  color: #252222;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 78px;
+  font-family: "bebas_neueregular";
+}
+
+.september {
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  background-color: #59a386;
+}
+
+.september p {
+  color: white;
+  font-size: 11px;
+  font-family: "open_sansregular";
+}
+
+.fashion {
+  float: right;
+  width: 117px;
+}
+
+.fashion svg {
+  width: 13px;
+  height: 13px;
+  fill: #59a386;
+  display: block;
+  padding-right: 5px;
+  float: left;
+}
+
+.fashion p {
+  font-size: 12px;
+  color: #e74c3c;
+  font-family: "open_sansitalic";
+}
+
+.duis {
+  padding-top: 25px;
+}
+
+.duis_titles {
+  font-size: 16px;
+  color: #59a386;
+  font-family: "open_sans_semiboldregular";
+  letter-spacing: -0.4px;
+  padding-bottom: 10px;
+}
+
+.duis_img {
+  height: 200px;
+  background-color: #676767;
+  position: relative;
+  display: block;
+}
+
+.duis_img svg {
+  width: 80px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  display: block;
+  position: absolute;
+}
+
+.duis_text {
+  font-size: 14px;
+  color: #818282;
+  padding-top: 20px;
+  font-family: "open_sansregular";
+}
+
+.read a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #dd7772;
+  float: right;
+  font-family: "open_sansregular";
+}
+
+.read svg {
+  width: 14px;
+  height: 14px;
+  display: block;
+  fill:#dd7772;
+  float: right;
+}
+
+.tags {
+  width: 400px;
+  float: left;
+  margin-left: 80px;
+}
+
+.tags h2 {
+  font-size: 18px;
+  color: #59a386;
+  font-family: "bebas_neueregular";
+  padding-bottom: 25px;
+}
+
+.menu_tags li {
+  display: inline-block;
+  margin: 10px 6px;
+}
+
+.menu_tags a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #59a386;
+  font-size: 14px;
+  padding: 7px 12px;
+  font-family: "open_sansregular";
+
+&:hover {
+ background-color: #e2534b;
+  }
+}
+
+.blog_title {
+  font-size: 20px;
+  color: #3b3939;
+  padding-bottom: 27px;
+  padding-top: 60px;
+ }
+
+.blog_title_1 {
+  font-family: 'open_sansitalic';
+  font-style: italic;
+ }
+
+.blog_title_2 {
+  font-family: "open_sansregular";
+  font-weight: bold;
+}
+
+.blog_lorem {
+  font-size: 13px;
+  color: #3b3939;
+  font-family:  "open_sansregular";
+  font-weight: bold;
+}
+
+.black_square {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: #676767;
+  border-radius: 20%;
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+.glamour_tags {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.text_lorem {
+  padding-top: 10px;
+}
+
+.text_lorem_date {
+  color: #d69894;
+ }

@@ -1,0 +1,80 @@
+.bio_section {
+  background-color: #e2534b;
+}
+
+.bio p {
+  color: #252222;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 52px;
+  margin-bottom: 65px;
+  font-family: 'bebas_neueregular';
+  font-weight: bolder;
+}
+
+.john_smits {
+  width: 50%;
+  float: left;
+}
+
+.john_smits p {
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'bebas_neueregular';
+  font-weight: bolder;
+  padding-bottom: 35px;
+}
+
+.avatar {
+  border-radius:50%;
+  background-color: #ffffff;
+  display: block; 
+  width: 230px;
+  margin: auto;
+}
+
+.icons {
+  text-align: center;
+  padding-top: 48px;
+  margin-bottom: 80px;
+}
+
+.icons li {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: white;
+  display: inline-block;
+}
+
+.icons svg {
+  width: 20px;
+  height: 20px;
+  fill: #e2534b;
+}
+
+.lorem_ipsun {
+  width: 50%;
+  float: left;
+  color: white;
+}
+
+.lorem_ipsun h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'bebas_neueregular';
+}
+
+.lorem_ipsun p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family:'open_sansregular';
+}
+
+
+
+
+
+
